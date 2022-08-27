@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive grocery website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div class="header-1">
+
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Grocery</a>
+
+        <form action="" class="search-box-container">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </div>
+
+    <div class="header-2">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#product">product</a>
+            <a href="#deal">deal</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-user-circle"></a>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div>
+        <img src="/Images/Grocery.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Your daily need products</h3>
+        <a href="#product" class="btn">get started</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+<!-- category section starts  -->
+
+<section class="category" id="category">
+
+    <h1 class="heading">shop by category</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Rice and Maize</h3>
+            <p>upto 20% off</p>
+            <img src="Images/maize.jpeg" alt="">
+            <a href="#RICE AND MAIZE product" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>Milk and Dairy</h3>
+            <p>upto 40% off</p>
+            <img src="Images/milkdairy.jpeg" alt="">
+            <a href="#Milk And Dairy product" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>Stationery</h3>
+            <p>upto 35% off</p>
+            <img src="Images/stationery.jpeg" alt="">
+            <a href="#stationery product" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>Personal Hygiene</h3>
+            <p>upto 10% off</p>
+            <img src="Images/personal.jpeg" alt="">
+            <a href="#PERSONAL product" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <h3>Can Food</h3>
+            <p>upto 10% off</p>
+            <img src="Images/can food.jpeg" alt="">
+            <a href="#CAN FOOD products" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- product section starts  -->
+
+<section class="product" id="RICE AND MAIZE product">
+
+    <h1 class="heading">Rice and Maize product</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Picture</th>
+                <th scope="col">Product name</th>
+          <th scope="col">(kg/l)</th>
+          <th scope="col">Quantity</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Discount cost</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="list1"><img src="Images/maize.jpeg" alt="" /></td>
+                <td class="product">Maize</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td .price>$100</td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/rice.jpeg" alt="" /></td>
+                <td class="product">Rice</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/samp.jpeg" alt="" /></td>
+                <td class="product">Samp</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/soya beans.jpeg" alt="" /></td>
+                <td class="product">Soya beans</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="product" id="MILK AND DAIRY product">
+
+    <h1 class="heading">Milk and Dairy product</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Picture</th>
+                <th scope="col">Product name</th>
+          <th scope="col">(kg/l)</th>
+          <th scope="col">Quantity</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Discount cost</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="image"><img src="Images/milk.jpeg" alt=""/></td>
+                <td class="product">Milk</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/yoghurt.jpeg" alt="" /></td>
+                <td class="product">yoghurt</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/butter.jpeg" alt="" /></td>
+                <td class="product">Butter</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section class="product" id="CAN FOOD products">
+
+    <h1 class="heading">Can Food products</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Picture</th>
+                <th scope="col">Product name</th>
+          <th scope="col">(kg/l)</th>
+          <th scope="col">Quantity</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Discount cost</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="list1"><img src="Images/beans.jpeg" alt="" /></td>
+                <td class="product">Beans</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/fish.jpeg" alt="" /></td>
+                <td class="product">Tin fish</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/jam.jpeg" alt="" /></td>
+                <td class="product">Fruit jam</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</section>
+    
+<section class="product" id="OTHER PRODUCTS">
+
+    <h1 class="heading">Other products</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Picture</th>
+                <th scope="col">Product name</th>
+                <th scope="col">(kg/l)</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Discount cost</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="list1"><img src="Images/candle.jpeg" alt="" /></td>
+                <td class="product">Candle</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/oil.jpeg" alt="" /></td>
+                <td class="product">Cooking oil</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/matches.jpeg" alt="" /></td>
+                <td class="product">Matches</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/tea.jpeg" alt="" /></td>
+                <td class="product">Tea</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+            <tr>
+                <td class="list1"><img src="Images/sugar.jpeg" alt="" /></td>
+                <td class="product">Sugar</td>
+          <td><input type="number" min="2" max="10" value="1"></td>
+                <td><input type="number" min="1" max="1000" value="1">
+    </td>
+          <td><span>$100</span></td>
+                <td>$80</td>
+          <td><a href="#">add to cart</a></td>
+                <td><a href="#">delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!-- product section ends -->
+<!-- cart section start here -->
+<!-- <div class=”Cart-Container”></div>
+<div class=”Header”>
+    <h3 class=”Heading”>Shopping Cart</h3>
+    <h5 class=”Action”>Remove all</h5>
+    </div>
+<div class=”Cart-Items”>
+    <div class=”image-box”>
+    <img src=”images/apple.png” style={{ height=”120px” }} />
+    </div>
+    <div class=”about”>
+    <h1 class=”title”>Apple Juice</h1>
+    <h3 class=”subtitle”>250ml</h3>
+    <img src=”images/veg.png” style={{ height=”30px” }}/>
+    </div>
+    <div class=”counter”></div>
+    <div class=”prices”></div>
+    </div>
+    <div class=”counter”>
+        <div class=”btn”>+</div>
+        <div class=”count”>2</div>
+        <div class=”btn”>-</div>
+    </div>
+    <div class=”prices”>
+        <div class=”amount”>$2.99</div>
+        <div class=”save”><u>Save for later</u></div>
+        <div class=”remove”><u>Remove</u></div>
+    </div>
+    <hr> 
+        <div class=”checkout”>
+        <div class=”total”>
+        <div>
+        <div class=”Subtotal”>Sub-Total</div>
+        <div class=”items”>2 items</div>
+        </div>
+        <div class=”total-amount”>$6.18</div>
+        </div>
+        <button class=”button”>Checkout</button>
+    </div>  -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    <p>For any enquiries please </p>
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="text" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Mukuru grocery</a>
+            <div class="share">
+                <a href="#" class="btn fab fa-facebook-f"></a>
+                <a href="#" class="btn fab fa-twitter"></a>
+                <a href="#" class="btn fab fa-instagram"></a>
+                <a href="#" class="btn fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">window xp</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<!-- <link href="stylecart.css" rel="stylesheet"> -->
+    
+</body>
+</html>
